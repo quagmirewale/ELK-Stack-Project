@@ -118,4 +118,10 @@ For example: [elk]
 - _Which URL do you navigate to in order to check that the ELK server is running?
 In order to check to see if your ELK server is running navigate to following IP address (http://ELK-Public-IP-Address:5601/)from the authorized IP Address
 
-_As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc._
+To download any of these files copy the following commands within your terminal window:
+curl https://raw.githubusercontent.com/quagmirewale/ELK-Stack-Project/Playbook-Files/filebeat-config.yml > filebeat-config.yml
+curl https://raw.githubusercontent.com/quagmirewale/ELK-Stack-Project/Playbook-Files/filebeat-playbook.yml > filebeat-playbook.yml
+curl https://raw.githubusercontent.com/quagmirewale/ELK-Stack-Project/Playbook-Files/install-elk.yml > install-elk.yml
+curl https://raw.githubusercontent.com/quagmirewale/ELK-Stack-Project/Playbook-Files/metricbeat-playbook.yml > metricbeat-playbook.yml
+curl https://raw.githubusercontent.com/quagmirewale/ELK-Stack-Project/Playbook-Files/metricbeat.yml > metricbeat.yml
+curl https://raw.githubusercontent.com/quagmirewale/ELK-Stack-Project/Playbook-Files/pentest.yml > pentest.yml
